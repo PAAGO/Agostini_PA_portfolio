@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+
+body{
+  background-color: #141414;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+body .barre{
+  margin: 20px 80px;
+}
+
+
+.accueil {
+  font-size: 194%;
+  line-height: 76px;
+  color: #f7264d;
+  position: absolute;
+  text-align: center;
+  margin-left: 0%;
+  
+}
+
+
+.r1blanc {
+  width: 100%;
+  height: 126px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.r1blanc .monportfolio {
+  width: 731px;
+  height: 7px;
+   
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 106px;
+
+  letter-spacing: 0.45em;
+  text-decoration-line: underline;
+ 
+
+  color: #f7264d;
+}
+
+
+
+.moi {
+  width: 153px;
+  height: 96px;
+  left: 491px;
+  top: 558px;
+
+  font-family: Poly;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #f7264d;
+
+  border: 1px solid #000000;
+}
+
+
+.reseau
+{
+  width: 200px;
+  padding-bottom: 10%;
+  
+}
+
+
+.reseau .r3gris {
+
+  width: 100%;
+  height: 65px;
+ 
+  background: #c4c4c4;
+  border: 2px solid #000000;
+ 
+ 
+  
+}
+
+.reseau .r3gris .icones{
+  display: flex;
+  padding-top: 1px;
+
+  
+}
+
+
+.reseau .r3gris .icones .insta{
+width: 60px;
+height: 62px;
+
+}
+
+.reseau .r3gris .icones .twitter{
+  width: 60px;
+  height: 62px;
+  
+  }
+
+.reseau .r3gris .icones .mail{
+width: 70px;
+height: 70px;
+
+
+
+}
+
+
+
+
+
+
+
+
+.projets{
+display: flex;
+justify-content: space-around;
+padding-top: 10%;
+padding-bottom: 10%;
+
+}
+
+.projets .projet{
+max-width: 20%;
+margin-right: 30px;
+}
+
+.projets .projet img{
+width: 100%;
+
+box-shadow:
+0 0 10vw  0vw #f7264d,
+0 0   2vw  0.4vw #f7264d,
+
+inset 0 0 .5vw  .2vw #f7264d,
+inset 0 0 0.2vw  0.2vw #f7264d,
+inset 0 0 .25vw  0.2vw #f7264d
+}
+
+.projets .projet p{
+font-size: 15px;
+color: white;
+}
+
+.créa{
+  display: flex;
+  
+}
+
+.créa .r4créa .accueil {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+
+
+.imoi{
+  padding-top: 10%;
+  display: flex;
+}
+
+.Moi .imoi .NA img{
+  
+  align-content: center;
+  width: 90%;
+
+  
+  box-shadow:
+  0 0 10vw  0vw #f7264d,
+  0 0   2vw  0.4vw #f7264d,
+  
+  inset 0 0 .5vw  .2vw #f7264d,
+  inset 0 0 0.2vw  0.2vw #f7264d,
+  inset 0 0 .25vw  0.2vw #f7264d
+ 
+}
+.Moi .rmoi .accueil{
+  width: 100%;
+  height: 6%;
+  display: flex;
+  background: #c4c4c4;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  border-top: 5px solid #ffffff;
+  
+}
+
+.Moi .titre{
+  font-size: 36px;
+  line-height: 76px;
+  color: #f7264d;
+  position: absolute;
+  left: 0;
+  padding-left: 10px;
+  
+}
+ 
+.Moi .NA .description {
+  text-align: center;
+  color :#ffffff;
+
+ 
+}
+
+.NA {
+  display: flex;
+  margin-left: 115px;
+  
+  padding-bottom: 10%;
+}
+
+
+
+
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  position:sticky;
+  top: 0;
+  background-color: #c4c4c4;
+  padding: 10px 30px;
+  
+}
+nav .onglets{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 5px;
+}
+nav .onglets{
+  display:flex;
+  flex-wrap:wrap;
+}
+nav .onglets a {
+  margin-right: 20px;
+  cursor:pointer;
+}
+nav .buttons button{
+  padding: 18px 20px;
+  color: #fff;
+  border:none;
+  font-size: 15px;
+  cursor:pointer;
+  outline:none;
+  
+  
+}
+
+nav .buttons .r{
+  background-color: #f7264d;
+  border-radius: 15px;
+  transition: transform 0.5s;
+  
+  
+}
+
+nav .buttons .r a{
+  text-decoration: none;
+  color: white;
+}
+
+.barre a{
+  text-decoration: none;
+  color: white;
+}
+
+]
+nav .buttons .r:hover{
+  transform: scale(1.05);
+}
+
+nav img{
+  
+  width: 60px;
+  height: 60px;
+  border-radius: 25%;
+  margin-left: 2%;
+  
+
+  box-shadow:
+  0 0 4vw  0vw #f7264d,
+  0 0   0.2vw  0.3vw #f7264d,
+  
+  inset 0 0 .5vw  .2vw #f7264d,
+  inset 0 0 0.2vw  0.2vw #f7264d,
+  inset 0 0 .2vw  0.2vw #f7264d
+}
+
+
+.nom {
+  font-size: 30px;
+  line-height: 40px;
+  background-position: center;
+
+  color: #f7264d;
+}
+
+
+
+header{
+  margin-top: 40px;
+  background: url('https://steamuserimages-a.akamaihd.net/ugc/930438652704558718/D3263902DB48E47798B85C283335BF018B368AE2/?imw=512&imh=265&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding-top: 360px;  
+  box-shadow:
+  0 0 4vw  0vw #f7264d,
+  0 0   0.2vw  0.3vw #f7264d,
+  
+  inset 0 0 .5vw  .2vw #f7264d,
+  inset 0 0 0.2vw  0.2vw #f7264d,
+  inset 0 0 .2vw  0.2vw #f7264d
+
+  
+}
+header h1{
+  text-align:center;
+  font-size: 60px;
+  padding: 150px;
+  transition: transform 2.5s;
+}
+
+
+
+
+
+
+footer{
+  background-color: #1a1a1a;
+  padding: 25px 100px;
+  color:#828282;
+  border-top: 3px solid #f7264d;
+  padding-bottom: 50px;
+  
+}
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .p{
+  color: #f7264d;
+  
+}
+
+footer a{
+  text-decoration: none;
+  color: #828282;
+}
+
+
+
+@media screen and (max-width: 700px){
+  body .page{
+    margin: 10px;
+  }
+  nav .onglets{
+    display:none;
+  }
+  header{
+    margin-top: 20px;
+    background-size: 250px 250px;
+  }
+  header h1{
+    font-size: 30px;
+    padding: 100px;
+  }
+
+
+  
+
+
+
